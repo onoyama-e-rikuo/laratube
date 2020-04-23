@@ -39,7 +39,7 @@ const routes = [
         component: RUby
     },
     {
-        path: "/Python",
+        path: "/python",
         component: Python
     },
     {

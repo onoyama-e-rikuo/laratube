@@ -85,7 +85,7 @@ import axios from 'axios'
         },
         methods: {
             getApi () {
-            axios.get(`http://127.0.0.1:8000/api/javascript`)
+            axios.get(`https://laratu-be.herokuapp.com/api/javascript`)
                 .then(response => (this.data = response.data))
             },
         },
