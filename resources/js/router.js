@@ -5,7 +5,7 @@ import VueRouter from "vue-router";
 // 2.
 import Top from "./pages/Top.vue";
 import BuiltWith from "./pages/BuiltWith.vue";
-import NotFonud from "./pages/NotFound.vue";
+import NotFonud from "./pages/NotFound.vue"
 import Java from "./pages/language/Java.vue";
 import PHP from "./pages/language/PHP.vue";
 import RUby from "./pages/language/RUby.vue";
@@ -27,27 +27,27 @@ const routes = [
         component: BuiltWith
     },
     {
-        path: "/api/java",
+        path: "/java",
         component: Java
     },
     {
-        path: "/api/php",
+        path: "/php",
         component: PHP
     },
     {
-        path: "/api/ruby",
+        path: "/ruby",
         component: RUby
     },
     {
-        path: "/api/Python",
+        path: "/Python",
         component: Python
     },
     {
-        path: "/api/javascript",
+        path: "/javascript",
         component: JavaScript
     },
     {
-        path: "/api/go",
+        path: "/go",
         component: Go
     },
     {
