@@ -27,27 +27,27 @@ const routes = [
         component: BuiltWith
     },
     {
-        path: "/java",
+        path: "/api/java",
         component: Java
     },
     {
-        path: "/php",
+        path: "/api/php",
         component: PHP
     },
     {
-        path: "/ruby",
+        path: "/api/ruby",
         component: RUby
     },
     {
-        path: "/Python",
+        path: "/api/Python",
         component: Python
     },
     {
-        path: "/javascript",
+        path: "/api/javascript",
         component: JavaScript
     },
     {
-        path: "/go",
+        path: "/api/go",
         component: Go
     },
     {
