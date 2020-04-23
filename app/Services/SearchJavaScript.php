@@ -10,7 +10,7 @@ class SearchJavaScript {
 
     public static function Search()
     {
-        $DEVELOPER_KEY = 'AIzaSyAzGCwWxsAcs1kjgBzxrEB23rnPLljNMOE';
+        $DEVELOPER_KEY = 'AIzaSyDt5NmoSluF9EVgLpIr42rKMMFF7ynRxNY';
         $client = new Google_Client();
         $client->setDeveloperKey($DEVELOPER_KEY);
         $youtube = new Google_Service_YouTube($client);
